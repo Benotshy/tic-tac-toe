@@ -103,6 +103,7 @@ function checkWinner(tiles, setStrikeClass, setGameState) {
     return (
       <div>
         <h1>Tic Tac Toe</h1>
+        <p>By Othmane benchekroun</p>
         <Board
           playerTurn={playerTurn}
           tiles={tiles}
